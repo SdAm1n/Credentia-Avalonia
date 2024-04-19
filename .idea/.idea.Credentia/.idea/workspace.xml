@@ -8,9 +8,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f49714d8-ffc5-495d-a181-87dda397ea76" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Credentia/App.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/Credentia/App.axaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Credentia/Credentia.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Credentia/Credentia.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Credentia/Views/MainWindow.axaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Credentia/Views/MainWindow.axaml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Credentia/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Credentia/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,6 +84,8 @@
       <workItem from="1713378998308" duration="805000" />
       <workItem from="1713379893157" duration="90000" />
       <workItem from="1713546103459" duration="399000" />
+      <workItem from="1713546567265" duration="409000" />
+      <workItem from="1713547836308" duration="710000" />
     </task>
     <servers />
   </component>
