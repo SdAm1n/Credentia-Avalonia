@@ -7,10 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f49714d8-ffc5-495d-a181-87dda397ea76" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Credentia/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Credentia/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="f49714d8-ffc5-495d-a181-87dda397ea76" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,6 +18,26 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock://C:/Users/njaha/OneDrive/Documents/avalonia_project/Credentia-Avalonia/Credentia/App.axaml" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/njaha/OneDrive/Documents/avalonia_project/Credentia-Avalonia/Credentia/App.axaml" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/njaha/OneDrive/Documents/avalonia_project/Credentia-Avalonia/Credentia/App.axaml" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/njaha/OneDrive/Documents/avalonia_project/Credentia-Avalonia/Credentia/App.axaml" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Credentia/ViewModels/HomePageViewModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Credentia/ViewModels/MainWindowViewModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Credentia/ViewModels/NavigationBarViewModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Credentia/ViewModels/ViewModelBase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Credentia/Views/HomePageView.axaml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Credentia/Views/HomePageView.axaml.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Credentia/Views/MainWindow.axaml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Credentia/Views/MainWindow.axaml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/njaha/OneDrive/Documents/avalonia_project/Credentia-Avalonia/Credentia/Views/MainWindow.axaml.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/njaha/OneDrive/Documents/avalonia_project/Credentia-Avalonia/Credentia/Views/MainWindow.axaml.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/njaha/OneDrive/Documents/avalonia_project/Credentia-Avalonia/Credentia/Views/MainWindow.axaml.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/njaha/OneDrive/Documents/avalonia_project/Credentia-Avalonia/Credentia/Views/MainWindow.axaml.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Credentia/Views/NavigationBarView.axaml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Credentia/Views/NavigationBarView.axaml.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2

@@ -1,23 +1,20 @@
 using Avalonia.Controls;
-using FluentAvalonia.UI.Windowing;
 using Avalonia.Markup.Xaml;
 using Credentia.ViewModels;
 
 namespace Credentia.Views;
 
-
-public partial class MainWindow : AppWindow
+public partial class NavigationBarView : UserControl
 {
-    public MainWindow()
+    public NavigationBarView()
     {
         InitializeComponent();
-        DataContext = new MainWindowViewModel();
+        DataContext = new NavigationBarViewModel();
     }
     private void InitializeComponent()
     {
         AvaloniaXamlLoader.Load(this);
     }
+    
 }
-
-
 

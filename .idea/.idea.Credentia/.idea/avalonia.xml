@@ -3,7 +3,6 @@
   <component name="AvaloniaProject">
     <option name="projectPerEditor">
       <map>
-        <entry key="Credentia/App.axaml" value="Credentia/Credentia.csproj" />
         <entry key="Credentia/Views/MainWindow.axaml" value="Credentia/Credentia.csproj" />
       </map>
     </option>
