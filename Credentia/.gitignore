@@ -11,6 +11,14 @@
 # AWS User-specific
 .idea/**/aws.xml
 
+.idea
+.idea/*
+.idea/.idea.Credentia/*
+.idea*/*
+.idea/.idea.Credentia
+.idea/.idea.Credentia/.idea/*
+.idea/.idea.Credentia/.idea
+
 # Generated files
 .idea/**/contentModel.xml
 

@@ -3,7 +3,7 @@
              x:Class="Credentia.App"
              xmlns:local="using:Credentia"
              xmlns:sty="using:FluentAvalonia.Styling"
-             RequestedThemeVariant="Default">
+             RequestedThemeVariant="Light">
              <!-- "Default" ThemeVariant follows system theme variant. "Dark" or "Light" are other available options. -->
 
     <Application.DataTemplates>
@@ -12,5 +12,6 @@
   
     <Application.Styles>
         <sty:FluentAvaloniaTheme PreferUserAccentColor="True"/>
+        <StyleInclude Source="avares://Credentia/Assets/Icons.axaml"></StyleInclude>
     </Application.Styles>
 </Application>

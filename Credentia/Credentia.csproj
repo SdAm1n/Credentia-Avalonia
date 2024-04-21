@@ -11,6 +11,8 @@
     <ItemGroup>
         <Folder Include="Models\"/>
         <AvaloniaResource Include="Assets\**"/>
+        <AvaloniaXaml Remove="Assets\Icons.axaml" />
+        <AvaloniaResource Include="Assets\Icons.axaml" />
     </ItemGroup>
 
     <ItemGroup>

@@ -11,11 +11,10 @@ public partial class MainWindow : AppWindow
     public MainWindow()
     {
         InitializeComponent();
-        DataContext = new MainWindowViewModel();
-    }
-    private void InitializeComponent()
-    {
-        AvaloniaXamlLoader.Load(this);
+        
+        // Tweak the title bar
+        TitleBar.ExtendsContentIntoTitleBar = true;
+        TitleBar.TitleBarHitTestType = TitleBarHitTestType.Complex;
     }
 }
 
