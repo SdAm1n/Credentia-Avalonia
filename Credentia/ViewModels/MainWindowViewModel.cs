@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.ObjectModel;
 using Avalonia;
+using Avalonia.Collections;
 using CommunityToolkit.Mvvm.ComponentModel;
 using Avalonia.Controls;
 using Avalonia.Media;
@@ -20,6 +21,8 @@ public partial class MainWindowViewModel : ViewModelBase
         [ObservableProperty]
         private ListItemTemplate? _selectedListItem;
         
+        public AvaloniaList<MainAppSearchItem> SearchTerms { get; } = new AvaloniaList<MainAppSearchItem>();
+        
         partial void OnSelectedListItemChanged(ListItemTemplate? value)
         {
             if (value is null) return;
@@ -33,8 +36,8 @@ public partial class MainWindowViewModel : ViewModelBase
             new ListItemTemplate(typeof(HomePageViewModel), "HomeRegular"),
             new ListItemTemplate(typeof(CardPageViewModel), "ContactCardRegular"),
             new ListItemTemplate(typeof(IdentityPageViewModel), "PeopleRegular"),
-            new ListItemTemplate(typeof(SecureNotePageViewModel), "NotebookRegular"),
-            new ListItemTemplate(typeof(PasswordGeneratorViewModel), "PasswordRegular"),
+            new ListItemTemplate(typeof(NotePageViewModel), "NotebookRegular"),
+            new ListItemTemplate(typeof(GeneratorPageViewModel), "PasswordRegular"),
             new ListItemTemplate(typeof(SettingsPageViewModel), "SettingsRegular"),
             
         };
@@ -63,8 +66,22 @@ public class ListItemTemplate
 
 }
 
+public class MainAppSearchItem
+{
+    public MainAppSearchItem() { }
 
+    public MainAppSearchItem(string pageHeader, Type pageType)
+    {
+        Header = pageHeader;
+        PageType = pageType;
+    }
 
+    public string Header { get; set; }
+    
+    public string Namespace { get; set; }
+
+    public Type PageType { get; set; }
+}
 
 
 

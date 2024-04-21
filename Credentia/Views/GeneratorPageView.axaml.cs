@@ -4,9 +4,9 @@ using Avalonia.Markup.Xaml;
 
 namespace Credentia.Views;
 
-public partial class PasswordGeneratorView : UserControl
+public partial class GeneratorPageView : UserControl
 {
-    public PasswordGeneratorView()
+    public GeneratorPageView()
     {
         InitializeComponent();
     }

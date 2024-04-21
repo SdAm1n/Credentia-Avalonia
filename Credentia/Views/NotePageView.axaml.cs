@@ -4,9 +4,9 @@ using Avalonia.Markup.Xaml;
 
 namespace Credentia.Views;
 
-public partial class SecureNotePageView : UserControl
+public partial class NotePageView : UserControl
 {
-    public SecureNotePageView()
+    public NotePageView()
     {
         InitializeComponent();
     }

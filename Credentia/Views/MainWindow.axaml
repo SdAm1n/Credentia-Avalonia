@@ -16,11 +16,64 @@
     </Design.DataContext>
 
 	<Grid RowDefinitions="Auto, *">
-		<Border Grid.Row="0" Height="32">
+		
+		<Grid Grid.Row="0" Name="TitleBarHost"
+		      Grid.ColumnDefinitions="Auto, Auto, *, Auto"
+		      Background="Transparent">
+			
+			<Image Grid.Column="0" Margin="12 4"
+			       IsHitTestVisible="False"
+			       Source="/Assets/avalonia-logo.ico"
+			       Width="18" Height="18"
+			       DockPanel.Dock="Left"
+			       Name="WindowIcon"
+			       RenderOptions.BitmapInterpolationMode="HighQuality">
+				<Image.IsVisible>
+					<OnPlatform Default="False">
+						<On Options="Windows" Content="True" />
+					</OnPlatform>
+				</Image.IsVisible>
+			</Image>
+			
 			<TextBlock Text="{Binding Title, RelativeSource={RelativeSource FindAncestor, AncestorType=Window}}"
+			           FontSize="12"
+			           IsHitTestVisible="False"
 			           VerticalAlignment="Center"
-			           Margin="10 0"/>
-		</Border>
+			           Grid.Column="1">
+				<TextBlock.IsVisible>
+					<OnPlatform Default="False">
+						<On Options="Windows" Content="True" />
+					</OnPlatform>
+				</TextBlock.IsVisible>
+			</TextBlock>
+			
+			<Border Grid.Column="2" Padding="6">
+				<AutoCompleteBox Name="SearchBox"
+				                 MaxWidth="500"
+				                 Watermark="Search"
+				                 Classes="CredentialSearchBox"
+				                 ValueMemberBinding="{Binding Header, DataType=vm:MainAppSearchItem}"
+				                 ItemsSource="{Binding SearchTerms}">
+					<!--wnd:AppWindow.AllowInteractionInTitleBar="True"-->
+					<AutoCompleteBox.ItemTemplate>
+						<DataTemplate x:DataType="vm:MainAppSearchItem">
+							<Panel>
+								<StackPanel HorizontalAlignment="Left"
+								            VerticalAlignment="Center">
+									<TextBlock Text="{Binding Header}" />
+									<TextBlock Text="{Binding Namespace}"
+									           Theme="{StaticResource CaptionTextBlockStyle}"
+									           Foreground="{DynamicResource AccentTextFillColorPrimaryBrush}"
+									           FontStyle="Italic"/>
+								</StackPanel>
+							</Panel>
+						</DataTemplate>
+					</AutoCompleteBox.ItemTemplate>
+				</AutoCompleteBox>
+			</Border>
+			
+		</Grid>
+		
 		
 		<SplitView Grid.Row="1" 
 			       IsPaneOpen="{Binding IsPaneOpen}"
